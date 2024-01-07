@@ -11,7 +11,7 @@
     /* background-color: white; */
 }
 
-header , main{
+header , .party{
     width: 80%;
     max-width: 1320px;
     margin: 0 auto;
@@ -62,7 +62,6 @@ header , main{
         margin: 0 auto;
 }
 .discount-img{
-    width: 802.9px;
     height: 500px;
     padding-bottom: 120px;
 }
@@ -97,4 +96,17 @@ header , main{
         font-weight: 700;
         line-height: normal;
         padding-bottom: 48px;
+}
+
+/* Party Section Style */
+
+.party-img{
+    background-image: url('resources/Vectorrr.png');
+  border-radius: 16px;
+}
+.party-content{
+    display: flex;
+    gap: 45px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    border-radius: 16px;
 }
