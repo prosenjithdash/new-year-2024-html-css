@@ -24,9 +24,9 @@ header , main{
 }
 .banner-img{
     background-image: url('resources/Banner\ Image.png');
+    height: 600px;
     background-repeat: no-repeat;
-    border-radius: 16px;
-    
+    border-radius: 16px; 
 
 }
 .banner-content{
@@ -43,7 +43,7 @@ header , main{
 }
 
 .banner-title{
-        padding-bottom: 177px;
+       
         color: #FFF;
         text-align: center;
         font-size: 72px;
