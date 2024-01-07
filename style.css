@@ -106,7 +106,42 @@ header , .party{
 }
 .party-content{
     display: flex;
-    gap: 45px;
+    gap: 70px;
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     border-radius: 16px;
+    padding-left: 126px;
+    padding-right: 70px;
+}
+.party-title{
+    color: #FFF;
+        font-family: Merriweather;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 88px;
+        /* 137.5% */
+        letter-spacing: 7.04px;
+        padding-top: 126px;
+        padding-bottom: 24px;
+}
+.party-des{
+    color: rgba(255, 255, 255, 0.80);
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        /* 166.667% */
+        padding-bottom: 48px;
+}
+.party-btn{
+    color: #ffffff;
+        font-family: Inter;
+        font-size: 20px;
+        text-transform: uppercase;
+    margin-bottom: 42px;
+}
+.party-img-2{
+    margin-top: 68px;
+        width: 250.83px;
+        height: 400.662px;
+        padding-bottom: 67px;
 }
