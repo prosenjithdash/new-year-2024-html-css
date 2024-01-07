@@ -51,3 +51,50 @@ header , main{
         line-height: 95px;
         /* 131.944% */
 }
+
+ /* MAIN section */
+
+/* Discount Section Style */
+
+.discount{
+        width: 60%;
+        max-width: 1320px;
+        margin: 0 auto;
+}
+.discount-img{
+    width: 802.9px;
+    height: 500px;
+    padding-bottom: 120px;
+}
+.discount-title{
+    color: #F00;
+        text-align: center;
+        font-family: Inter;
+        font-size: 88px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-top: 120px;
+        padding-bottom: 48px;
+}
+
+.discount-des{
+    color: #F00;
+        text-align: center;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding-bottom: 16px;
+}
+.discount-sub-title{
+    color: #070211;
+        text-align: center;
+        font-family: Inter;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-bottom: 48px;
+}
