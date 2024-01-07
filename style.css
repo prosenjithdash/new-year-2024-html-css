@@ -204,6 +204,7 @@ span{
 .coming-soon-container{
     display: flex;
     
+    
     /* align-items: center; */
     
 }
@@ -350,4 +351,83 @@ span{
             border-radius: 0px 50px 50px 0px;
             background: #F00;
             border: 0;
+}
+
+/* Footer Style Section is start */
+
+footer{
+    background: #070211;
+}
+.footer-content{
+    display: flex;
+    gap: 559px;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+.footer-title{
+    color: #FFF;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px;
+        /* 166.667% */
+}
+.footer-hr{
+    display: flex;
+    /* justify-content: end;
+    text-align: center; */
+    margin-left: 80px;
+    /* margin-right: 140px; */
+    width: 1310px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+   
+}
+.phone-des{
+    color: #FFF;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px;
+        /* 166.667% */
+}
+.phone{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.unsub{
+    display: flex;
+    gap: 880px;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 120px;
+    justify-content: center;
+}
+.unsub-title{
+    color: #FFF;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+}
+.unsub-des{
+    color: #FFF;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
 }
