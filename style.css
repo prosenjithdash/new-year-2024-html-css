@@ -11,7 +11,7 @@
     /* background-color: white; */
 }
 
-header , .party , .place , .coming-soon , .products, .subscribe{
+header , .party , .place , .coming-soon , .products, .subscribe , .sale{
     width: 80%;
     max-width: 1320px;
     margin: 0 auto;
@@ -40,6 +40,7 @@ header , .party , .place , .coming-soon , .products, .subscribe{
         text-align: center;
         font-size: 32px;
         font-weight: 400;
+        /* text-shadow: 5px 5px 5px  rgb(255, 230, 0); */
 }
 
 .banner-title{
@@ -49,6 +50,7 @@ header , .party , .place , .coming-soon , .products, .subscribe{
         font-size: 72px;
         font-weight: 900;
         line-height: 95px;
+        text-shadow: 7px 7px 7px #F00;
         /* 131.944% */
 }
 
@@ -483,4 +485,48 @@ footer{
 .img1{
     width: 375px;
     height: 400px;
+}
+
+/* Sale style section */
+
+.sale-sub-title{
+    color: #070211;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding-bottom: 16px;
+}
+.sale-title{
+    color: #070211;
+        font-family: Merriweather;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        padding-bottom: 28px;
+}
+.holidays{
+    color: #F00;
+        text-align: center;
+        font-family: Merriweather;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+}
+.sale-des{
+    color: rgba(7, 2, 17, 0.60);
+        text-align: center;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px;
+        /* 160% */
+        padding-bottom: 64px;
+}
+.sale-content{
+    text-align: center;
 }
