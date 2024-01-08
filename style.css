@@ -530,3 +530,29 @@ footer{
 .sale-content{
     text-align: center;
 }
+.sale-imgs{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+.sale-img1{
+    width: 429px;
+    height: 433px;
+    position: relative;
+}
+.sale-img2 {
+    width: 429px;
+    height: 433px;
+}
+.sale-img3{
+    width: 1180px;
+    height: 129px;
+    border-top-right-radius: 120px;
+    border-top-left-radius: 120px;
+    margin-bottom: 120px;
+}
+.sale-img4 {
+   position: absolute;
+   margin-top: -430px;
+   margin-left: 450px;
+}
