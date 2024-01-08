@@ -11,7 +11,7 @@
     /* background-color: white; */
 }
 
-header , .party , .place , .coming-soon , subscribe{
+header , .party , .place , .coming-soon , .products, .subscribe{
     width: 80%;
     max-width: 1320px;
     margin: 0 auto;
@@ -430,4 +430,57 @@ footer{
         font-style: normal;
         font-weight: 500;
         line-height: normal;
+}
+
+/* Products  style sections */
+
+.products{
+    /* margin-top: 120px; */
+    margin-bottom: 120px;
+}
+.products-sub-title{
+    color: #F00;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding-bottom: 16px;
+}
+.products-title{
+    color: #070211;
+        font-family: Merriweather;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-transform: capitalize;
+        padding-bottom: 22px;
+}
+.products-des{
+    color: rgba(7, 2, 17, 0.60);
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        /* 160% */
+        padding-bottom: 48px;
+}
+/* .product-cards{
+    width: 1100px;
+} */
+.products-card1{
+    display: flex;
+    gap: 24px;
+    
+}
+.products-card2 {
+    display: flex;
+    gap: 24px;
+    padding-top: 24px;
+}
+.img1{
+    width: 375px;
+    height: 400px;
 }
