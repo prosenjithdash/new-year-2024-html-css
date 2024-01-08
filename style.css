@@ -489,10 +489,11 @@ footer{
 }
 .img1:hover{
     /* box-shadow: 20px 10px 10px 20px  #070211; */
-    border: 15px dotted red;
-    width: 275px;
-    height: 300px;
+    border: 15px solid red;
+    width: 325px;
+    height: 350px;
     padding: 10px;
+    border-radius: 16px;
 }
 /* Sale style section */
 
