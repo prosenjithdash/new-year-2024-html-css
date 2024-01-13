@@ -1,3 +1,4 @@
+/* Website style section */
 /* Font style */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
@@ -563,4 +564,11 @@ footer{
    position: absolute;
    margin-top: -430px;
    margin-left: 450px;
+}
+
+/* Responsive Layout */
+
+/* Mobile Responsive Style */
+@media screen and (max-width:576px){
+    
 }
